@@ -1,0 +1,40 @@
+{
+  "projects": {
+    "default": "react-app-3bb2d",
+    "master": "react-app-3bb2d",
+    "prod": "react-app-3bb2d"
+  },
+  "ci": {
+    "copyVersion": true,
+    "createConfig": {
+      "master": {
+        "env": "staging",
+        "firebase": {
+          "apiKey": "AIzaSyAkm7TiZ3UZeybf6nFYIzRrkVcpaChVM8Y",
+          "authDomain": "react-app-3bb2d.firebaseapp.com",
+          "databaseURL": "https://react-app-3bb2d.firebaseio.com",
+          "projectId": "react-app-3bb2d",
+          "storageBucket": "react-app-3bb2d.appspot.com",
+          "messagingSenderId": "1019607135675"
+        },
+        "sentryDsn": "${SENTRY_DSN}",
+        "analyticsTrackingId": "${GA_TRACKING_ID}",
+        "publicVapidKey": "${STAGE_PUBLIC_VAPID_KEY}"
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyAkm7TiZ3UZeybf6nFYIzRrkVcpaChVM8Y",
+          "authDomain": "react-app-3bb2d.firebaseapp.com",
+          "databaseURL": "https://react-app-3bb2d.firebaseio.com",
+          "projectId": "react-app-3bb2d",
+          "storageBucket": "react-app-3bb2d.appspot.com",
+          "messagingSenderId": "1019607135675"
+        },
+        "sentryDsn": "${SENTRY_DSN}",
+        "analyticsTrackingId": "${GA_TRACKING_ID}",
+        "publicVapidKey": "${PROD_PUBLIC_VAPID_KEY}"
+      }
+    }
+  }
+}
